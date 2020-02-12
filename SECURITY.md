@@ -2,23 +2,20 @@
 
 Copyright 2020 Ying Wang
 
-I believe this document (translated from [PDF](srs_template-ieee.pdf) to
-Markdown for better parsing support, performance, and blob size) complies with
-[IEEE Standard 830-1998](IEEE-Std-830-1998.pdf) defined best practices, and I
-plan to apply this documentation standard for TinyDevCRM going forward into
-product development.
+This document describes the security features planned, implemented, and/or
+shipped for [TinyDevCRM](https://tinydevcrm.com).
 
 __________
 
 ## Software Requirements Specification
 
-for ${PROJECT}
+for
 
-Version ${VERSION} ${APPROVED | NOT APPROVED}
+Version 0.1 **APPROVED**
 
-${ORGANIZATION}
+[@yingw787](https://yingw787.com)
 
-${DATE_CREATED}
+February 12th, 2020
 
 __________
 
@@ -30,7 +27,7 @@ __________
 
 Name | Date | Reason For Changes | Version
 --- | --- | --- | ---
-${NAME} | ${DATE} | ${REASON_FOR_CHANGES} | ${VERSION}
+Ying Wang | February 12th, 2020 | Initial specification | 0.1
 
 __________
 

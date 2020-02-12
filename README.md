@@ -5,3 +5,7 @@ living document to track and provide structure for TinyDevCRM's product
 development.
 
 Documentation is split by feature, and should be IEEE-830.1998 compliant.
+
+## Security
+
+See [SECURITY.md](SECURITY.md).

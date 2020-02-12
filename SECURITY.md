@@ -2,9 +2,6 @@
 
 Copyright 2020 Ying Wang
 
-This document describes the security features planned, implemented, and/or
-shipped for [TinyDevCRM](https://tinydevcrm.com).
-
 __________
 
 ## Software Requirements Specification
@@ -20,6 +17,9 @@ February 12th, 2020
 __________
 
 ## Table of Contents
+
+- [Introduction](#1.-introduction)
+    - [Document Conventions](#1.2-document-conventions)
 
 __________
 
@@ -40,6 +40,13 @@ document, including the revision or release number. Describe the scope of the
 product that is covered by this SRS, particularly if this SRS describes only
 part of the system or a single subsystem.*
 
+This document describes the security features planned, implemented, and/or
+shipped for [TinyDevCRM](https://tinydevcrm.com) v0.1.
+
+In addition to manual versioning independent of automated version control
+systems, this document should also be versioned as part of the larger `git`
+repository [**`tinydevcrm-spec`**](https://github.com/yingw787/tinydevcrm-spec).
+
 ### 1.2 Document Conventions
 
 *Describe any standards or typographical conventions that were followed when
@@ -47,6 +54,13 @@ writing this SRS, such as fonts or highlighting that have special significance.
 For example, state whether priorities for higher-level requirements are assumed
 to be inherited by detailed requirements, or whether every requirement statement
 is to have its own priority.*
+
+This document is written in Markdown (*.md). Use `pandoc` in order to convert
+Markdown to other formats as:
+
+```bash
+pandoc -i SECURITY.md -o out.html
+```
 
 ### 1.3 Intended Audience and Reading Suggestions
 
